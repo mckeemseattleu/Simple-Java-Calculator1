@@ -86,7 +86,7 @@ public class Calculator {
     
     public Double calculateMono(MonoOperatorModes newMode, Double num) {
         if (newMode.equals(MonoOperatorModes.square)) {
-            return num * num;
+            return num * num -1;
         }
         if (newMode.equals(MonoOperatorModes.squareRoot)) {
             return Math.sqrt(num);
